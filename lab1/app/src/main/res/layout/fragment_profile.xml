@@ -6,13 +6,20 @@
     android:orientation="vertical"
     android:padding="24dp"
     android:gravity="center_horizontal"
-    android:background="#BBDEFB" tools:context=".ProfileFragment">
+    android:background="?attr/colorSurface" tools:context=".ProfileFragment">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ПРОФИЛЬ ПОЛЬЗОВАТЕЛЯ"
         android:textSize="24sp"
+        android:layout_marginBottom="32dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_profile"
+        android:contentDescription="Фото профиля"
         android:layout_marginBottom="32dp"/>
 
     <TextView
@@ -26,6 +33,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Статус: В сети"
-        android:textSize="18sp"/>
+        android:textSize="18sp" />
 
 </LinearLayout>
